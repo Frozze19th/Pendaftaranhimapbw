@@ -1,0 +1,115 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Caveat;
+    font-size: 32px;
+    }
+    /* Utility */
+    .tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    }
+    /* Dekstop*/
+    @media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #307be4;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        }
+    }
+    #card {
+        background: #bbeeeb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 385px;
+        margin: 3rem auto 5rem auto;
+        width: 300px;
+        }
+    body {
+        background: url(https://www.ec4u.com/wp-content/uploads/2020/03/AdobeStock_249960065-scaled.jpeg);
+        background-size: cover;
+    }
+    #card-content {
+        padding: 12px 44px;
+    }
+    #card-title {
+        font-family: "Raleway Thin", sans-serif;
+        letter-spacing: 4px;
+        padding-bottom: 23px;
+        padding-top: 13px;
+        text-align: center;
+    }
+    .underline-title {
+        background: -webkit-linear-gradient(right, #7bf3f7, #2e5cc0);
+        height: 2px;
+        margin: 1rem auto 0 auto;
+        width: 89px;
+    }
+    .form-border {
+        background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+        height: 1px;
+        width: 100%;
+    }
+    #signup {
+        color: #2db8bd;
+        font-family: "Raleway", sans-serif;
+        font-size: 10pt;
+        margin-top: 12px;
+        text-align: center;
+    }
+    #submit-btn {
+        background: -webkit-linear-gradient(right, #7bd4f7, #2d5bbd);
+        border: none;
+        border-radius: 21px;
+        box-shadow: 0px 1px 8px #24c6be;
+        cursor: pointer;
+        color: white;
+        font-family: "Raleway SemiBold", sans-serif;
+        height: 42.3px;
+        margin: 0 auto;
+        margin-left: 73px;
+        transition: 0.25s;
+        width: 153px;
+    }
+    #submit-btn:hover {
+        box-shadow: 0px 1px 18px #24c6be;
+    }
+    input,
+    textarea {
+        color: #373737;
+        background: #fff;
+        border: 1px solid #CCCCCC;
+        color: #aaa;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom:15px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+    input[type="text"]{
+        padding: 6px 6px;
+        height: 30px;
+        width:100%;
+    }
+    input[type="password"]{
+        padding: 6px 6px;
+        height: 30px;
+        width:100%;
+    }
+    fieldset {
+        border-radius:4px;
+        background: transparent; 
+        padding:20px;
+        border-color: transparent;
+    }
